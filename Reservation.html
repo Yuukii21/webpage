@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Css</title>
+    <link rel="stylesheet" href="style R.css">
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <p>Highland Bali Villas Resort and Spa</p>
+        </div>
+        
+        <div class="box2">
+            <ul>
+                <li><a href="Resort Webpage.html">HOME</a></li>
+                <li><a href="Amenities.html">AMENITIES</a></li>
+                <li><a href="Room Rate.html">ROOM RATE</a></li>
+                <li><a href="Reservation.html">RESERVATION</a></li>
+                <li><a href="About us.html">ABOUT US</a></li>
+            </ul>
+        </div>  
+        
+        <div class="container">
+            <h1>To book a room please fill up and submit the reservation form below</h1>
+        
+                <div class="cont2">
+                    <form action="Form.php" method="get">
+                        <div>
+        
+                            <span>Your Full Name</span>
+                            <input type="text" name="name" id="name" placeholder="First Name, Last Name" required>
+                        </div>
+                        <div>
+                            <span>Your Email Address</span>
+                            <input type="email" name="name" id="name" placeholder="example@gmail.com" required> 
+                        </div>
+                        <div>
+                            <span>Select a Suite</span>
+                            <select name="suite" id="suite" required>
+                                <option>Deluxe Suite</option>
+                                <option>Matrimonial Suite</option>
+                                <option>Family Suite</option>
+                                <option>Celebrity Suite</option>
+                                <option>Presidential Suite</option>
+                            </select>
+                        </div>
+                        <div>
+                            <span>Date of Reservation</span>
+                            <input type="date" name="date" id="date" placeholder="date" required>
+                        </div>
+                        <div>
+                            <span>Your Phone Number</span>
+                            <input type="number" name="number" id="number" placeholder="09XX-XXX-XXXX" required>
+                        </div>
+                        <div id="submit">
+                            <input type="submit" value="SUBMIT" id="submit">
+                        </div>
+                    </form>
+                </div>
+        </div>
+        
+    </div>
+     
+</body>
+</html>
